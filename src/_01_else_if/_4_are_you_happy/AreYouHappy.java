@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class AreYouHappy {
 	public static void main(String[] args) {
 	
-		String bob = JOptionPane.showInputDialog("Are you happy? Answer in ye sor no.");
+		String bob = JOptionPane.showInputDialog("Are you happy? Answer in yes or no.");
 		if(bob.equalsIgnoreCase("yes")) {
 			JOptionPane.showMessageDialog(null, "Keep doing whatever you are doing");
 		}
